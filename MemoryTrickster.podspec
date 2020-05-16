@@ -15,6 +15,6 @@ Accessing the memory validating corner case scenarios from the crash edge.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MemoryTrickster/Classes/**/*'
+  s.source_files = 'MemoryTrickster/Classes/**/*' 
 
 end
