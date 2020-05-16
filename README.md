@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/victorpanitz/MemoryTrickster.svg?branch=master)](https://travis-ci.com/victorpanitz/MemoryTrickster)
+[![codecov](https://codecov.io/gh/victorpanitz/MemoryTrickster/branch/master/graph/badge.svg)](https://codecov.io/gh/victorpanitz/MemoryTrickster)
+
 ![Banner](/resources/banner.png)
 
 # Memory Trickster
