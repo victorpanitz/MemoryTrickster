@@ -9,7 +9,10 @@ protocol MemoryDisplayLogic: AnyObject {
 }
 
 final class MemoryDisplayer {
-    private lazy var topViewController = UIApplication.topViewController()
+    private var topViewController: UIViewController? {
+        return UIApplication.topViewController()
+    }
+    
     private let memoryTricksterView = MemoryTricksterView()
     private let presenter: MemoryPresenter
     
