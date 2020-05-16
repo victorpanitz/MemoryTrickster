@@ -5,8 +5,6 @@
 
 # Memory Trickster
 
-Build Status codecov Version License Platform
-
 ![Accuracy](/resources/memTAccuracy.gif)
 
 ## What's Memory Trickster?
