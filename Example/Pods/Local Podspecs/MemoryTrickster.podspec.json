@@ -1,0 +1,23 @@
+{
+  "name": "MemoryTrickster",
+  "version": "0.1.0",
+  "summary": "A short description of MemoryTrickster.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/victorpanitz@gmail.com/MemoryTrickster",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "victorpanitz@gmail.com": "victorpanitz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/victorpanitz@gmail.com/MemoryTrickster.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/VictorPanitz",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MemoryTrickster/Classes/**/*"
+}

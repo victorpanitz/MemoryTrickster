@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08459695B37C76B46A52745D9F6419AC /* MemoryDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7BD41D0439F82D0FCABCC410A6D2D /* MemoryDisplayer.swift */; };
+		175293E5497B84ABD85BD5D89F08E955 /* MemoryBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2B1BF6C81DA6259BBA0C60486308C3 /* MemoryBridge.swift */; };
+		1DEDA178091D02801786D255C6815805 /* MemoryTricksterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68706A501E9DE01865265E8BCFC9BBA3 /* MemoryTricksterFactory.swift */; };
+		21C0D226D2D48D5900109F1A1A9ACD53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		236E8BABD7343880F271E616B8DD37DF /* MemoryTrickster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C68EE37CB40D5764903ED4D0464DEBA /* MemoryTrickster-dummy.m */; };
+		2CFAE1253A48ACC89F41467F0B3F54D4 /* MemoryModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45035438EA8057B0847477C733D02DC0 /* MemoryModifier.swift */; };
+		2D395520A25A59C5B31A89F0C2078E8C /* Pods-MemoryTrickster_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B708A01D4C85CDF973C281516BFD3 /* Pods-MemoryTrickster_Example-dummy.m */; };
+		372A64436127B7BBF5455B976BFC6899 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7335B4565FD6DC057ECFF3B49A9047 /* UIApplicationExtensions.swift */; };
+		38C96C0A9A6F51D253D5F5ADE1844B6F /* Pods-MemoryTrickster_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CC710159FACACE90169D21F5A96A11 /* Pods-MemoryTrickster_Tests-dummy.m */; };
+		4439254444D8AEF86E645F35C04A60CA /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D67451FD9F3469A187DE6E952339364 /* UIStackViewExtensions.swift */; };
+		4495EE913A986B65195071178543651C /* MemoryOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E93C7E9D4F83E995F38062B3E6DD1 /* MemoryOrchestrator.swift */; };
+		54074AB61ECF314ECD12BDBF9B3D824A /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478DDCC71D1D3FE3BDC92728C76D1A9E /* Memory.swift */; };
+		716E6C4C246F9A65006B7EBB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E6C4B246F9A65006B7EBB /* Strings.swift */; };
+		9069BB8CC9D0B4EB183A75FEC6824692 /* MemoryTricksterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBC710926BC71E99D557086BD1404F /* MemoryTricksterView.swift */; };
+		9672904E71F63E1A2A8682AAF2AE00AE /* MemoryTrickster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBB511ED9755CEBD1B96E0330EF02A2 /* MemoryTrickster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0032B021EACC62BE7A1CFB42248040A /* MemoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE33A321DC153EB0A34FE2850FC4F5 /* MemoryError.swift */; };
+		B89C79DD16156B3EED71F264A015030F /* MemoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7025F1DD8E42437650F76954684368 /* MemoryPresenter.swift */; };
+		C02E75E875EE28BB4B57E2A6593B523E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5D88D59BF72C6B8AA7018F2DBE0E166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CCC9F17516E0A7996DDD630F3F023C55 /* Pods-MemoryTrickster_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 213CF6089AD21743FC32CB3D5F86A5D5 /* Pods-MemoryTrickster_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1F1AD23A500A1E465FC31A3999C471 /* Pods-MemoryTrickster_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF1D15D57273B2688C289E3F0DF5FD5 /* Pods-MemoryTrickster_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC041FE21071C1DA8877D9686208E1DD /* Int64Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2044EC40C55FB5EA995617F7ACB840D /* Int64Extensions.swift */; };
+		F0F4546089881D5E64F65D2757CC14BA /* MemoryBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3F244A4F6ECF9963707FCE3997CA34 /* MemoryBuffer.swift */; };
+		F3AFA8EB9049897AB6925BC72B209FA2 /* XlocButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C8B0C214FDDECDCB683DC3288CFE90 /* XlocButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3713B0A922F06207ACB901B41529333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AEB120CCC9CFD609E82C60CACD8CE5E;
+			remoteInfo = "Pods-MemoryTrickster_Example";
+		};
+		D39CC4F0E9E9D578B42E2F65B2634E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658FC20CFC7A8847C19DDE1D928A5034;
+			remoteInfo = MemoryTrickster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023D1D4EF910E2FBA30133C285AF16B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		062B708A01D4C85CDF973C281516BFD3 /* Pods-MemoryTrickster_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MemoryTrickster_Example-dummy.m"; sourceTree = "<group>"; };
+		164D55C74685C163128B567BF821FE31 /* MemoryTrickster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MemoryTrickster-Info.plist"; sourceTree = "<group>"; };
+		16CFB3CE8C7AC00FD47FE66E12470D26 /* MemoryTrickster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MemoryTrickster.modulemap; sourceTree = "<group>"; };
+		213CF6089AD21743FC32CB3D5F86A5D5 /* Pods-MemoryTrickster_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MemoryTrickster_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2C68EE37CB40D5764903ED4D0464DEBA /* MemoryTrickster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MemoryTrickster-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3872C5F78498D7B5107FABC376689981 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AD4FC54380EA9F2720A778B32289ED1 /* Pods_MemoryTrickster_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoryTrickster_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF89E92ECFF557DA92A28A909773A42 /* Pods-MemoryTrickster_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoryTrickster_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F8E93C7E9D4F83E995F38062B3E6DD1 /* MemoryOrchestrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryOrchestrator.swift; sourceTree = "<group>"; };
+		45035438EA8057B0847477C733D02DC0 /* MemoryModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryModifier.swift; sourceTree = "<group>"; };
+		478DDCC71D1D3FE3BDC92728C76D1A9E /* Memory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		4C24431580DA52A59FE96659EC5E31B9 /* Pods-MemoryTrickster_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MemoryTrickster_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D67451FD9F3469A187DE6E952339364 /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensions.swift; sourceTree = "<group>"; };
+		52C8B0C214FDDECDCB683DC3288CFE90 /* XlocButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XlocButton.swift; sourceTree = "<group>"; };
+		57AF3990178B83DE6F81FE4E1964B904 /* Pods-MemoryTrickster_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoryTrickster_Tests-Info.plist"; sourceTree = "<group>"; };
+		5A66F91FA11C39313B1F06BB495A73D7 /* MemoryTrickster.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MemoryTrickster.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E591CD9ADB4294B42C6B34EF5561494 /* Pods-MemoryTrickster_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoryTrickster_Example-Info.plist"; sourceTree = "<group>"; };
+		5E7025F1DD8E42437650F76954684368 /* MemoryPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryPresenter.swift; sourceTree = "<group>"; };
+		5F9F5653DA30C46C50D4261DDA59473C /* Pods-MemoryTrickster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoryTrickster_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60E89DD029517C290AF8EE9E3931D88E /* MemoryTrickster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MemoryTrickster-prefix.pch"; sourceTree = "<group>"; };
+		68706A501E9DE01865265E8BCFC9BBA3 /* MemoryTricksterFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryTricksterFactory.swift; sourceTree = "<group>"; };
+		6BF1D15D57273B2688C289E3F0DF5FD5 /* Pods-MemoryTrickster_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MemoryTrickster_Example-umbrella.h"; sourceTree = "<group>"; };
+		716E6C4B246F9A65006B7EBB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = ../MemoryTrickster/Classes/Constants/Strings.swift; sourceTree = "<group>"; };
+		8781F0A985029B6488A89EDC1C8F93E6 /* Pods-MemoryTrickster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoryTrickster_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7335B4565FD6DC057ECFF3B49A9047 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2B1BF6C81DA6259BBA0C60486308C3 /* MemoryBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryBridge.swift; sourceTree = "<group>"; };
+		A3BF44499E475056C3ECA4ECB5221E1C /* Pods-MemoryTrickster_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MemoryTrickster_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAAFA414895BDA977E9FC050516A752A /* Pods-MemoryTrickster_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MemoryTrickster_Tests.modulemap"; sourceTree = "<group>"; };
+		B6B997579FCEDD0A12B16B5C0EF8FFF3 /* Pods-MemoryTrickster_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MemoryTrickster_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6CC710159FACACE90169D21F5A96A11 /* Pods-MemoryTrickster_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MemoryTrickster_Tests-dummy.m"; sourceTree = "<group>"; };
+		B77BF57563FDACFD9F97B128878BEA1A /* Pods_MemoryTrickster_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoryTrickster_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCE33A321DC153EB0A34FE2850FC4F5 /* MemoryError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryError.swift; sourceTree = "<group>"; };
+		C4FFAC43E001AB8B037B838FC3833FA9 /* MemoryTrickster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MemoryTrickster.xcconfig; sourceTree = "<group>"; };
+		C57310ABB9CD2BAAB45DDC9BAD3FCCF1 /* MemoryTrickster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MemoryTrickster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8D778E6C9E1393ED901EB5192AAD8E /* Pods-MemoryTrickster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoryTrickster_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CEBB511ED9755CEBD1B96E0330EF02A2 /* MemoryTrickster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MemoryTrickster-umbrella.h"; sourceTree = "<group>"; };
+		D0386590A9827139C46CF2997D6C9911 /* Pods-MemoryTrickster_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MemoryTrickster_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DBF7BD41D0439F82D0FCABCC410A6D2D /* MemoryDisplayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryDisplayer.swift; sourceTree = "<group>"; };
+		EE423C93F21722C0C1285112657EC51F /* Pods-MemoryTrickster_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MemoryTrickster_Example.modulemap"; sourceTree = "<group>"; };
+		EFB0342EC05839CF7A7DF01060847116 /* Pods-MemoryTrickster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MemoryTrickster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1BBC710926BC71E99D557086BD1404F /* MemoryTricksterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryTricksterView.swift; sourceTree = "<group>"; };
+		F2044EC40C55FB5EA995617F7ACB840D /* Int64Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Int64Extensions.swift; sourceTree = "<group>"; };
+		FE3F244A4F6ECF9963707FCE3997CA34 /* MemoryBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryBuffer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3233BBD2E70ABD64C31A3E1713DE2A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E75E875EE28BB4B57E2A6593B523E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED74152DD62F197488774FDC1B77634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C0D226D2D48D5900109F1A1A9ACD53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BBF7F257492618E3A985C8EBCEB297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D88D59BF72C6B8AA7018F2DBE0E166 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B50770AA9368FF458DEB218EC124FCE /* Pods-MemoryTrickster_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AAAFA414895BDA977E9FC050516A752A /* Pods-MemoryTrickster_Tests.modulemap */,
+				4C24431580DA52A59FE96659EC5E31B9 /* Pods-MemoryTrickster_Tests-acknowledgements.markdown */,
+				B6B997579FCEDD0A12B16B5C0EF8FFF3 /* Pods-MemoryTrickster_Tests-acknowledgements.plist */,
+				B6CC710159FACACE90169D21F5A96A11 /* Pods-MemoryTrickster_Tests-dummy.m */,
+				57AF3990178B83DE6F81FE4E1964B904 /* Pods-MemoryTrickster_Tests-Info.plist */,
+				213CF6089AD21743FC32CB3D5F86A5D5 /* Pods-MemoryTrickster_Tests-umbrella.h */,
+				EFB0342EC05839CF7A7DF01060847116 /* Pods-MemoryTrickster_Tests.debug.xcconfig */,
+				CC8D778E6C9E1393ED901EB5192AAD8E /* Pods-MemoryTrickster_Tests.release.xcconfig */,
+			);
+			name = "Pods-MemoryTrickster_Tests";
+			path = "Target Support Files/Pods-MemoryTrickster_Tests";
+			sourceTree = "<group>";
+		};
+		29BE06508813407C68FDAB6C63E5E581 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB3B61D2942949F01B9594EE13441346 /* Pods-MemoryTrickster_Example */,
+				1B50770AA9368FF458DEB218EC124FCE /* Pods-MemoryTrickster_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C71831E40A0EDCAC014A04D2AF13B4C /* AuxiliarModels */ = {
+			isa = PBXGroup;
+			children = (
+				478DDCC71D1D3FE3BDC92728C76D1A9E /* Memory.swift */,
+				BFCE33A321DC153EB0A34FE2850FC4F5 /* MemoryError.swift */,
+				45035438EA8057B0847477C733D02DC0 /* MemoryModifier.swift */,
+			);
+			name = AuxiliarModels;
+			path = MemoryTrickster/Classes/AuxiliarModels;
+			sourceTree = "<group>";
+		};
+		3AD7B26ACD725F37D10C5F752462FC1D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16CFB3CE8C7AC00FD47FE66E12470D26 /* MemoryTrickster.modulemap */,
+				C4FFAC43E001AB8B037B838FC3833FA9 /* MemoryTrickster.xcconfig */,
+				2C68EE37CB40D5764903ED4D0464DEBA /* MemoryTrickster-dummy.m */,
+				164D55C74685C163128B567BF821FE31 /* MemoryTrickster-Info.plist */,
+				60E89DD029517C290AF8EE9E3931D88E /* MemoryTrickster-prefix.pch */,
+				CEBB511ED9755CEBD1B96E0330EF02A2 /* MemoryTrickster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MemoryTrickster";
+			sourceTree = "<group>";
+		};
+		5C97B137275FB4372BB1F1FD215A0F3B /* MemoryTrickster */ = {
+			isa = PBXGroup;
+			children = (
+				716E6C4A246F9A5A006B7EBB /* Constants */,
+				2C71831E40A0EDCAC014A04D2AF13B4C /* AuxiliarModels */,
+				D521DD02CCF8F017F6F5E183A109CFCE /* Extensions */,
+				7B11A748A1B7BCBF49BFC90F60909528 /* Feature */,
+				7F9966A8E2C156F18AA96C25C4D2142E /* Pod */,
+				3AD7B26ACD725F37D10C5F752462FC1D /* Support Files */,
+				B0555EFD8381D5571A6552FE99308A3D /* UIComponents */,
+			);
+			name = MemoryTrickster;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		716E6C4A246F9A5A006B7EBB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				716E6C4B246F9A65006B7EBB /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7B11A748A1B7BCBF49BFC90F60909528 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F244A4F6ECF9963707FCE3997CA34 /* MemoryBuffer.swift */,
+				DBF7BD41D0439F82D0FCABCC410A6D2D /* MemoryDisplayer.swift */,
+				3F8E93C7E9D4F83E995F38062B3E6DD1 /* MemoryOrchestrator.swift */,
+				5E7025F1DD8E42437650F76954684368 /* MemoryPresenter.swift */,
+				9E2B1BF6C81DA6259BBA0C60486308C3 /* MemoryBridge.swift */,
+				68706A501E9DE01865265E8BCFC9BBA3 /* MemoryTricksterFactory.swift */,
+				F1BBC710926BC71E99D557086BD1404F /* MemoryTricksterView.swift */,
+			);
+			name = Feature;
+			path = MemoryTrickster/Classes/Feature;
+			sourceTree = "<group>";
+		};
+		7F9966A8E2C156F18AA96C25C4D2142E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				023D1D4EF910E2FBA30133C285AF16B1 /* LICENSE */,
+				5A66F91FA11C39313B1F06BB495A73D7 /* MemoryTrickster.podspec */,
+				3872C5F78498D7B5107FABC376689981 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8D1B80B6E4F96C9C7FE326BB58EAD016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57310ABB9CD2BAAB45DDC9BAD3FCCF1 /* MemoryTrickster.framework */,
+				B77BF57563FDACFD9F97B128878BEA1A /* Pods_MemoryTrickster_Example.framework */,
+				3AD4FC54380EA9F2720A778B32289ED1 /* Pods_MemoryTrickster_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9018B7CCC9D7024C2C459D342E4C4E83 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C97B137275FB4372BB1F1FD215A0F3B /* MemoryTrickster */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0555EFD8381D5571A6552FE99308A3D /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				52C8B0C214FDDECDCB683DC3288CFE90 /* XlocButton.swift */,
+			);
+			name = UIComponents;
+			path = MemoryTrickster/Classes/UIComponents;
+			sourceTree = "<group>";
+		};
+		BB3B61D2942949F01B9594EE13441346 /* Pods-MemoryTrickster_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE423C93F21722C0C1285112657EC51F /* Pods-MemoryTrickster_Example.modulemap */,
+				A3BF44499E475056C3ECA4ECB5221E1C /* Pods-MemoryTrickster_Example-acknowledgements.markdown */,
+				3EF89E92ECFF557DA92A28A909773A42 /* Pods-MemoryTrickster_Example-acknowledgements.plist */,
+				062B708A01D4C85CDF973C281516BFD3 /* Pods-MemoryTrickster_Example-dummy.m */,
+				D0386590A9827139C46CF2997D6C9911 /* Pods-MemoryTrickster_Example-frameworks.sh */,
+				5E591CD9ADB4294B42C6B34EF5561494 /* Pods-MemoryTrickster_Example-Info.plist */,
+				6BF1D15D57273B2688C289E3F0DF5FD5 /* Pods-MemoryTrickster_Example-umbrella.h */,
+				8781F0A985029B6488A89EDC1C8F93E6 /* Pods-MemoryTrickster_Example.debug.xcconfig */,
+				5F9F5653DA30C46C50D4261DDA59473C /* Pods-MemoryTrickster_Example.release.xcconfig */,
+			);
+			name = "Pods-MemoryTrickster_Example";
+			path = "Target Support Files/Pods-MemoryTrickster_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9018B7CCC9D7024C2C459D342E4C4E83 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D1B80B6E4F96C9C7FE326BB58EAD016 /* Products */,
+				29BE06508813407C68FDAB6C63E5E581 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D521DD02CCF8F017F6F5E183A109CFCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2044EC40C55FB5EA995617F7ACB840D /* Int64Extensions.swift */,
+				8E7335B4565FD6DC057ECFF3B49A9047 /* UIApplicationExtensions.swift */,
+				4D67451FD9F3469A187DE6E952339364 /* UIStackViewExtensions.swift */,
+			);
+			name = Extensions;
+			path = MemoryTrickster/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EF5D3997E147B4571FA09C456588EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC9F17516E0A7996DDD630F3F023C55 /* Pods-MemoryTrickster_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1C1E017B8692F41AE0F87552D293E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9672904E71F63E1A2A8682AAF2AE00AE /* MemoryTrickster-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662B86912C0CC0D924F476115BC361E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1F1AD23A500A1E465FC31A3999C471 /* Pods-MemoryTrickster_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AEB120CCC9CFD609E82C60CACD8CE5E /* Pods-MemoryTrickster_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29029758F93F7C52DF4E1CAF0538E28 /* Build configuration list for PBXNativeTarget "Pods-MemoryTrickster_Example" */;
+			buildPhases = (
+				662B86912C0CC0D924F476115BC361E1 /* Headers */,
+				CB5BC444187F85D8060E3F273A03956B /* Sources */,
+				C8BBF7F257492618E3A985C8EBCEB297 /* Frameworks */,
+				BFCC1A29992342BA44E0DF986808100C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DC0BF02428C761B255C287081B2600 /* PBXTargetDependency */,
+			);
+			name = "Pods-MemoryTrickster_Example";
+			productName = "Pods-MemoryTrickster_Example";
+			productReference = B77BF57563FDACFD9F97B128878BEA1A /* Pods_MemoryTrickster_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		658FC20CFC7A8847C19DDE1D928A5034 /* MemoryTrickster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D25D0DE7BEFCAD573D8005DBF01620E /* Build configuration list for PBXNativeTarget "MemoryTrickster" */;
+			buildPhases = (
+				5A1C1E017B8692F41AE0F87552D293E1 /* Headers */,
+				237824AD579E8E379EA8E5E41A8E0F6B /* Sources */,
+				3233BBD2E70ABD64C31A3E1713DE2A06 /* Frameworks */,
+				E2D4D6D03170C0BA83A6FD9EA685909C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryTrickster;
+			productName = MemoryTrickster;
+			productReference = C57310ABB9CD2BAAB45DDC9BAD3FCCF1 /* MemoryTrickster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DDEBB8FD86694AF14133C2023288B33 /* Pods-MemoryTrickster_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ABA8B2910A3DD89C00E8AFAC7A4B1F0 /* Build configuration list for PBXNativeTarget "Pods-MemoryTrickster_Tests" */;
+			buildPhases = (
+				1EF5D3997E147B4571FA09C456588EED /* Headers */,
+				842DFA727A6B514EE28E0A906E702BB1 /* Sources */,
+				5ED74152DD62F197488774FDC1B77634 /* Frameworks */,
+				83B18AA6B0DD4EE84E5540DC34BE141C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1501FA04F1A84928A568D4CD26B885D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MemoryTrickster_Tests";
+			productName = "Pods-MemoryTrickster_Tests";
+			productReference = 3AD4FC54380EA9F2720A778B32289ED1 /* Pods_MemoryTrickster_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D1B80B6E4F96C9C7FE326BB58EAD016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				658FC20CFC7A8847C19DDE1D928A5034 /* MemoryTrickster */,
+				2AEB120CCC9CFD609E82C60CACD8CE5E /* Pods-MemoryTrickster_Example */,
+				7DDEBB8FD86694AF14133C2023288B33 /* Pods-MemoryTrickster_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B18AA6B0DD4EE84E5540DC34BE141C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCC1A29992342BA44E0DF986808100C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D4D6D03170C0BA83A6FD9EA685909C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		237824AD579E8E379EA8E5E41A8E0F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC041FE21071C1DA8877D9686208E1DD /* Int64Extensions.swift in Sources */,
+				54074AB61ECF314ECD12BDBF9B3D824A /* Memory.swift in Sources */,
+				716E6C4C246F9A65006B7EBB /* Strings.swift in Sources */,
+				F0F4546089881D5E64F65D2757CC14BA /* MemoryBuffer.swift in Sources */,
+				08459695B37C76B46A52745D9F6419AC /* MemoryDisplayer.swift in Sources */,
+				B0032B021EACC62BE7A1CFB42248040A /* MemoryError.swift in Sources */,
+				2CFAE1253A48ACC89F41467F0B3F54D4 /* MemoryModifier.swift in Sources */,
+				4495EE913A986B65195071178543651C /* MemoryOrchestrator.swift in Sources */,
+				B89C79DD16156B3EED71F264A015030F /* MemoryPresenter.swift in Sources */,
+				175293E5497B84ABD85BD5D89F08E955 /* MemoryBridge.swift in Sources */,
+				236E8BABD7343880F271E616B8DD37DF /* MemoryTrickster-dummy.m in Sources */,
+				1DEDA178091D02801786D255C6815805 /* MemoryTricksterFactory.swift in Sources */,
+				9069BB8CC9D0B4EB183A75FEC6824692 /* MemoryTricksterView.swift in Sources */,
+				372A64436127B7BBF5455B976BFC6899 /* UIApplicationExtensions.swift in Sources */,
+				4439254444D8AEF86E645F35C04A60CA /* UIStackViewExtensions.swift in Sources */,
+				F3AFA8EB9049897AB6925BC72B209FA2 /* XlocButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DFA727A6B514EE28E0A906E702BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C96C0A9A6F51D253D5F5ADE1844B6F /* Pods-MemoryTrickster_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5BC444187F85D8060E3F273A03956B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D395520A25A59C5B31A89F0C2078E8C /* Pods-MemoryTrickster_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1501FA04F1A84928A568D4CD26B885D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MemoryTrickster_Example";
+			target = 2AEB120CCC9CFD609E82C60CACD8CE5E /* Pods-MemoryTrickster_Example */;
+			targetProxy = B3713B0A922F06207ACB901B41529333 /* PBXContainerItemProxy */;
+		};
+		C2DC0BF02428C761B255C287081B2600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MemoryTrickster;
+			target = 658FC20CFC7A8847C19DDE1D928A5034 /* MemoryTrickster */;
+			targetProxy = D39CC4F0E9E9D578B42E2F65B2634E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4DD92579A2DA676D0B6A0B3D7558D94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FFAC43E001AB8B037B838FC3833FA9 /* MemoryTrickster.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MemoryTrickster/MemoryTrickster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MemoryTrickster/MemoryTrickster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MemoryTrickster/MemoryTrickster.modulemap";
+				PRODUCT_MODULE_NAME = MemoryTrickster;
+				PRODUCT_NAME = MemoryTrickster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5042CFD3F333A99B36238A67C153DB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8781F0A985029B6488A89EDC1C8F93E6 /* Pods-MemoryTrickster_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoryTrickster_Example/Pods-MemoryTrickster_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoryTrickster_Example/Pods-MemoryTrickster_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62CF108472596E4347250BF1A53932B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FFAC43E001AB8B037B838FC3833FA9 /* MemoryTrickster.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MemoryTrickster/MemoryTrickster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MemoryTrickster/MemoryTrickster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MemoryTrickster/MemoryTrickster.modulemap";
+				PRODUCT_MODULE_NAME = MemoryTrickster;
+				PRODUCT_NAME = MemoryTrickster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66A8E52179B1811F08940B0B32AF0DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB0342EC05839CF7A7DF01060847116 /* Pods-MemoryTrickster_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoryTrickster_Tests/Pods-MemoryTrickster_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoryTrickster_Tests/Pods-MemoryTrickster_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1F9A9B1253EDAC20491258EE6CF6D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8D778E6C9E1393ED901EB5192AAD8E /* Pods-MemoryTrickster_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoryTrickster_Tests/Pods-MemoryTrickster_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoryTrickster_Tests/Pods-MemoryTrickster_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC37A1C5EAEFB7C3C46A5EDB1A8BD943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9F5653DA30C46C50D4261DDA59473C /* Pods-MemoryTrickster_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MemoryTrickster_Example/Pods-MemoryTrickster_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MemoryTrickster_Example/Pods-MemoryTrickster_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D25D0DE7BEFCAD573D8005DBF01620E /* Build configuration list for PBXNativeTarget "MemoryTrickster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD92579A2DA676D0B6A0B3D7558D94F /* Debug */,
+				62CF108472596E4347250BF1A53932B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ABA8B2910A3DD89C00E8AFAC7A4B1F0 /* Build configuration list for PBXNativeTarget "Pods-MemoryTrickster_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A8E52179B1811F08940B0B32AF0DEA /* Debug */,
+				F1F9A9B1253EDAC20491258EE6CF6D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29029758F93F7C52DF4E1CAF0538E28 /* Build configuration list for PBXNativeTarget "Pods-MemoryTrickster_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5042CFD3F333A99B36238A67C153DB2B /* Debug */,
+				FC37A1C5EAEFB7C3C46A5EDB1A8BD943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

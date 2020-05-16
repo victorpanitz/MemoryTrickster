@@ -1,0 +1,16 @@
+PODS:
+  - MemoryTrickster (0.1.0)
+
+DEPENDENCIES:
+  - MemoryTrickster (from `../`)
+
+EXTERNAL SOURCES:
+  MemoryTrickster:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MemoryTrickster: 2cb94184c01be6540d6aad44595a2fe3e8257525
+
+PODFILE CHECKSUM: 9bfab118c1d8919ad822389a1003a32aac68f1a1
+
+COCOAPODS: 1.7.5
