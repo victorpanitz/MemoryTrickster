@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MemoryTrickster_Example' do
+  pod 'MemoryTrickster', :path => '../'
+
+  target 'MemoryTrickster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
