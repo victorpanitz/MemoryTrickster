@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MemoryTrickster'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Full access to memory with MemoryTrickster.'
 
   s.description      = <<-DESC
