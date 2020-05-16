@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.com/victorpanitz/MemoryTrickster.svg?branch=master)](https://travis-ci.com/victorpanitz/MemoryTrickster)
 [![codecov](https://codecov.io/gh/victorpanitz/MemoryTrickster/branch/master/graph/badge.svg)](https://codecov.io/gh/victorpanitz/MemoryTrickster)
+![Version](https://cocoapod-badges.herokuapp.com/v/MemoryTrickster/badge.svg)
+![Platform](https://cocoapod-badges.herokuapp.com/p/MemoryTrickster/badge.svg)
+![License](https://cocoapod-badges.herokuapp.com/l/MemoryTrickster/badge.svg)
+
 
 ![Banner](/resources/banner.png)
 
