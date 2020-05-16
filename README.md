@@ -1,7 +1,6 @@
 ![Banner](/resources/banner.png)
 
 # MemoryTrickster
-[![Actions Status](https://github.com/victorpanitz/MemoryTrickster/workflows/Swift/badge.svg)](https://github.com/victorpanitz/MemoryTrickster/actions)
 [![Build Status](https://travis-ci.com/victorpanitz/MemoryTrickster.svg?token=y1oGzysboBwVUskrgH3k&branch=master)](https://travis-ci.com/victorpanitz/MemoryTrickster)
 [![Version](https://img.shields.io/cocoapods/v/MemoryTrickster.svg?style=flat)](https://cocoapods.org/pods/MemoryTrickster)
 [![License](https://img.shields.io/cocoapods/l/MemoryTrickster.svg?style=flat)](https://cocoapods.org/pods/MemoryTrickster)
